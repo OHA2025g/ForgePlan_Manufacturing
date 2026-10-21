@@ -1,0 +1,165 @@
+{
+  "materials": [
+    {
+      "id": "ms",
+      "name": "Mild steel",
+      "grade": "MS · confirm grade",
+      "density": 7850,
+      "rate": 80,
+      "scrapRate": 28,
+      "machiningFactor": 1,
+      "notes": "Nominal density. Example rates in INR/kg; replace with supplier prices."
+    },
+    {
+      "id": "ss304",
+      "name": "Stainless steel",
+      "grade": "304",
+      "density": 7900,
+      "rate": 240,
+      "scrapRate": 90,
+      "machiningFactor": 0.55,
+      "notes": "Nominal density. Example supplier rate and cutting-time factor."
+    },
+    {
+      "id": "ss316",
+      "name": "Stainless steel",
+      "grade": "316",
+      "density": 8000,
+      "rate": 340,
+      "scrapRate": 110,
+      "machiningFactor": 0.5,
+      "notes": "Confirm the exact material specification with your supplier."
+    },
+    {
+      "id": "al6061",
+      "name": "Aluminium",
+      "grade": "6061",
+      "density": 2700,
+      "rate": 290,
+      "scrapRate": 130,
+      "machiningFactor": 1.8,
+      "notes": "Nominal density. Stock condition and tooling affect actual cutting time."
+    },
+    {
+      "id": "brass",
+      "name": "Brass",
+      "grade": "Generic · confirm alloy",
+      "density": 8500,
+      "rate": 580,
+      "scrapRate": 350,
+      "machiningFactor": 1.4,
+      "notes": "Brass density varies by alloy. Verify before quoting."
+    },
+    {
+      "id": "castiron",
+      "name": "Cast iron",
+      "grade": "Grey iron · confirm grade",
+      "density": 7200,
+      "rate": 75,
+      "scrapRate": 22,
+      "machiningFactor": 0.9,
+      "notes": "Nominal density. This estimate uses machined stock, not casting yield."
+    }
+  ],
+  "machines": [
+    {
+      "id": "vmc",
+      "name": "VMC 01",
+      "type": "vmc",
+      "rate": 1200,
+      "setup": 30,
+      "mrr": 20,
+      "feed": 350,
+      "x": 600,
+      "y": 450,
+      "z": 400,
+      "enabled": true,
+      "notes": "Example capability and rates. Setup allowance includes locating and a flip."
+    },
+    {
+      "id": "mill",
+      "name": "Conventional mill",
+      "type": "mill",
+      "rate": 650,
+      "setup": 25,
+      "mrr": 10,
+      "feed": 160,
+      "x": 500,
+      "y": 350,
+      "z": 300,
+      "enabled": true,
+      "notes": "Boring head and suitable workholding assumed; verify your tooling."
+    },
+    {
+      "id": "drill",
+      "name": "Radial drill",
+      "type": "drill",
+      "rate": 400,
+      "setup": 15,
+      "mrr": 5,
+      "feed": 100,
+      "x": 700,
+      "y": 700,
+      "z": 400,
+      "enabled": true,
+      "notes": "Tapping requires a suitable attachment and supported thread size."
+    },
+    {
+      "id": "saw",
+      "name": "Band saw / plate cutting",
+      "type": "cutting",
+      "rate": 350,
+      "setup": 10,
+      "mrr": 12,
+      "feed": 50,
+      "x": 800,
+      "y": 600,
+      "z": 100,
+      "enabled": true,
+      "notes": "Choose the actual stock-cutting process and replace the time allowance."
+    },
+    {
+      "id": "lathe",
+      "name": "Centre lathe",
+      "type": "lathe",
+      "rate": 750,
+      "setup": 25,
+      "mrr": 15,
+      "feed": 180,
+      "x": 300,
+      "y": 300,
+      "z": 750,
+      "enabled": true,
+      "notes": "Round components only in the suggested route. Confirm swing and fixtures."
+    },
+    {
+      "id": "finish",
+      "name": "Bench finishing",
+      "type": "finishing",
+      "rate": 250,
+      "setup": 0,
+      "mrr": 1,
+      "feed": 100,
+      "x": 2000,
+      "y": 2000,
+      "z": 2000,
+      "enabled": true,
+      "notes": "Deburring and edge finishing time allowance."
+    },
+    {
+      "id": "inspection",
+      "name": "Inspection bench",
+      "type": "inspection",
+      "rate": 350,
+      "setup": 5,
+      "mrr": 1,
+      "feed": 100,
+      "x": 2000,
+      "y": 2000,
+      "z": 2000,
+      "enabled": true,
+      "notes": "Confirm gauges and acceptance criteria for the component."
+    }
+  ],
+  "jobs": []
+}

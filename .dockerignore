@@ -1,0 +1,11 @@
+.git
+node_modules
+workshop-data
+dist
+.next
+.wrangler
+.vinext
+outputs
+work
+**/.DS_Store
+*.zip
